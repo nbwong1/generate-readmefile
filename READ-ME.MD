@@ -1,7 +1,7 @@
-# This is the Read Me Generator
+# This is a sample project
 ---
 ## Description
-I was motivated to create this application so I could create readme files with ease, instead of having to do all the formatting. This  reduces the amount of time necessary to put into a project. I learned how to use FS better and also how to generate a markdown file with ease.
+I am motivated to learn more each day and apply what I learn in my course.
 
 ## Table of Contents
 * Installation
@@ -12,19 +12,19 @@ I was motivated to create this application so I could create readme files with e
 * Questions 
 
 ## Installation
-When running this code, you will need to copy my code in order to create your own readme file.
+To install my new projects, you will need to read my code and implement what I have stored.
 
 ## Usage
-This is where I will add information on how to use my code.
+n/a
 
 ## Licenses
-WIP for my project
+Work in Progress
 
 ## Contributions
-I am the sole contributor to my project.
+I am the sole collaborator
 
 ## Tests
-You can run tests by opening node and running the code for my project. When prompted, you will answer the questions and then complete the creation of my readme file generator
+You can run tests by creating the README File.
 
-#Questions
-Lots of questions along the way... learning every day.
+## Questions
+Always!
