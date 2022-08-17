@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nbwong1/generate-readmefile/issues"
   },
-  "homepage": "https://github.com/nbwong1/generate-readmefile#readme"
+  "homepage": "https://github.com/nbwong1/generate-readmefile#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
