@@ -14,46 +14,50 @@ const questions = [
 ];
 
 inquirer
-    .prompt([
-        {
-            type: 'input',
-            name: 'description',
-            message: questions[0],
-        },
-        {
-            type: 'input',
-            name: 'tableOfContents',
-            message: questions[1],
-        },
-        {
-            type: 'input',
-            name: 'installation',
-            message: questions[2],
-        },
-        {
-            type: 'input',
-            name: 'usage',
-            message: questions[3],
-        },
-        {
-            type: 'input',
-            name: 'credits',
-            message: questions[4],
-        },
-        {
-            type: 'input',
-            name: 'license',
-            message: questions[5],
-        },
-        {
-            type: 'input',
-            name: 'features',
-            message: questions[6],
-        },
-    ]);
-    .then((data) => {
-        const filename = ``
-    })
+  .prompt([
+    {
+      type: "input",
+      name: "description",
+      message: questions[0],
+    },
+    {
+      type: "input",
+      name: "tableOfContents",
+      message: questions[1],
+    },
+    {
+      type: "input",
+      name: "installation",
+      message: questions[2],
+    },
+    {
+      type: "input",
+      name: "usage",
+      message: questions[3],
+    },
+    {
+      type: "input",
+      name: "credits",
+      message: questions[4],
+    },
+    {
+      type: "input",
+      name: "license",
+      message: questions[5],
+    },
+    {
+      type: "input",
+      name: "features",
+      message: questions[6],
+    },
+  ])
+  .then((data) => {
+    const fileName = "README.MD";
+
+    fs.writeFile(filename, JSON.stringify(data, null, "\t"), (err) =>
+      err ? console.log(err) : console.log("Success!")
+    );
+  });
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
