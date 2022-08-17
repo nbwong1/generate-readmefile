@@ -41,7 +41,7 @@ ${contributions}
 ## Tests
 ${tests}
 
-#Questions
+## Questions
 ${questions}`;
 
 inquirer
@@ -92,11 +92,11 @@ inquirer
       message: "Any questions along the way?",
     },
   ])
-  .then((data) => {
-    const filename = "README.MD";
+  .then((answers) => {
+    const markdownFileContent = generateMarkdown(answers);
 
-    fs.writeFile(filename, JSON.stringify(data, null, "\t"), (err) =>
-      err ? console.log(err) : console.log("Success!")
+    fs.writeFile('READ-ME.MD', markdownFileContent, (err) =>
+      err ? console.log(err) : console.log("Successfully created READ-ME.MD file!")
     );
   });
 
