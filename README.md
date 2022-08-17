@@ -2,6 +2,7 @@
 ---
 ## Description
 ![read-me generator](./assets/generate-readmefile.gif)
+
 I was motivated to create this application so I could create readme files with ease, instead of having to do all the formatting. This  reduces the amount of time necessary to put into a project. I learned how to use FS better and also how to generate a markdown file with ease.
 
 ## Table of Contents
